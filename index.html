@@ -328,11 +328,6 @@
       <section
         class="relative bg-primaryColor py-10 md:pt-16 md:pb-28 px-5 md:px-10"
       >
-        <!-- radial gradient -->
-        <!-- <div
-          class="absolute -z-10 w-2/3 h-dvh rounded-full radialGradient left-1/2 -translate-x-1/2 top-10 blur-3xl opacity-80"
-        ></div> -->
-
         <!-- content -->
         <div class="w-full max-w-80 mx-auto">
           <h2 class="text-3xl md:text-4xl lg:text-6xl text-center mb-3">
@@ -363,7 +358,20 @@
               <div class="absolute h-[400px] right-0 top-1/2 -translate-y-1/2">
                 <img class="w-full" src="./images/line-2.png" alt="" />
               </div>
-              <img class="w-full h-full" src="./images/Avatar.png" alt="" />
+              <img
+                class="w-full h-full absolute z-10"
+                src="./images/Avatar.png"
+                alt=""
+              />
+
+              <!-- radial gradient under image -->
+              <div
+                class="absolute w-80 h-80 rounded-full radialGradient left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 blur-3xl"
+              ></div>
+              <!-- top of image -->
+              <div
+                class="absolute w-72 h-72 rounded-full radialGradient left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 blur-3xl opacity-60 z-40"
+              ></div>
             </div>
           </div>
 
