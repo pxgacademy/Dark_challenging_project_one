@@ -1,0 +1,18 @@
+.color {
+  color: #0c081b;
+  color: #7f00ff;
+  color: #8000ff4d;
+  color: #ffffff;
+  color: #ffffff80;
+}
+
+.insideShadow {
+  box-shadow: inset 0 0 5px white;
+}
+.bannerShadoww {
+  box-shadow: 0 -20px 50px #7f00ff;
+}
+
+.radialGradient {
+  background: radial-gradient(#8000ff80, #8000ff4d, transparent);
+}

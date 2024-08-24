@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Website</title>
+    <!-- CSS raw file -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <!-- Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/ce74b8a1bb.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Tailwindcss cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyUI cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <!-- body started here -->
+  <body class="font-interr text-white text-sm w-full max-w-[1200px] mx-auto">
+    <!-- header section started -->
+    <header>
+      <nav class="bg-primaryColor py-2 border-b-2 border-gray-800">
+        <div class="flex items-center justify-between w-4/6 mx-auto">
+          <div><img class="min-w-10" src="./logo/Logo.png" alt="" /></div>
+          <ul
+            class="flex text-secondaryTextColor border border-gray-600 rounded-full py-2 px-6 space-x-4"
+          >
+            <li><a href="">Features</a></li>
+            <li><a href="">Developers</a></li>
+            <li><a href="">Company</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Changelog</a></li>
+          </ul>
+          <div class="border border-gray-700 p-1 rounded-md">
+            <button class="bg-secondaryColor py-1 px-4 rounded-md insideShadow">
+              Join Waitlist
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner section -->
+      <section class="bg-primaryColor mb-10 relative -z-20">
+        <!-- radial gradient -->
+        <div
+          class="absolute -z-10 w-96 h-96 rounded-full radialGradient left-1/2 -translate-x-1/2 top-10 blur-3xl opacity-80"
+        ></div>
+        <!-- content -->
+        <div
+          class="text-center pt-20 pb-10 flex flex-col justify-center items-center gap-5"
+        >
+          <button class="bg-primaryColor p-3 rounded-full border border-gray-700 text-secondaryColor">
+            <span class="text-primaryColor text-sm font-bold bg-secondaryColor rounded-full py-1 px-2">NEW</span>
+            Latest integration just arrived</button>
+          <h1 class="text-7xl">
+            Boost your <br />
+            rankings with AI.
+          </h1>
+          <p class="leading-normal">
+            Elevate your site’s visibility effortlessly with AI, <br />
+            where smart technology meets user-friendly SEO tools.
+          </p>
+          <div class="border border-gray-700 p-1 rounded-lg">
+            <button
+              class="bg-white text-gray-950 py-1 px-4 rounded-md hover:bg-secondaryColor hover:text-white"
+            >
+              Start for free
+            </button>
+          </div>
+        </div>
+
+        <!-- image -->
+        <div class="flex justify-center px-10">
+          <div class="bannerShadoww relative">
+            <img class="mx-auto" src="./images/banner.png" alt="" />
+            <div
+              class="absolute w-full h-full bg-gradient-to-t from-secondaryColorTt to-transparent top-0"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+    <!-- JavaScript -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
