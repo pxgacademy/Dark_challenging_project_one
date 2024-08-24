@@ -341,15 +341,19 @@
 
         <!-- client banner -->
         <div
-          class="mt-28 grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-7 lg:gap-10"
+          class="mt-28 grid grid-cols-1 md:grid-cols-2 gap-24 md:gap-7 lg:gap-10"
         >
           <!-- image -->
-          <div class="flex justify-end">
+          <div class="flex justify-center md:justify-end">
             <div class="relative h-[230px] w-[230px]">
-              <div class="absolute w-[800px] top-0 -left-2/3">
+              <div
+                class="absolute w-[400px] md:w-[770px] lg:w-[800px] top-0 left-1/2 -translate-x-1/2 md:translate-x-0 md:-left-2/3"
+              >
                 <img class="w-full" src="./images/line-1.png" alt="" />
               </div>
-              <div class="absolute w-[800px] bottom-0 -left-2/3">
+              <div
+                class="absolute w-[400px] md:w-[770px] lg:w-[800px] bottom-0 left-1/2 -translate-x-1/2 md:translate-x-0 md:-left-2/3"
+              >
                 <img class="w-full" src="./images/line-1.png" alt="" />
               </div>
               <div class="absolute h-[400px] left-0 top-1/2 -translate-y-1/2">
@@ -376,7 +380,9 @@
           </div>
 
           <!-- content -->
-          <div class="flex items-center">
+          <div
+            class="flex items-center justify-center md:justify-start text-center md:text-left"
+          >
             <div class="max-w-96">
               <h3 class="text-xl md:text-2xl text-gray-300 mb-5">
                 ”This product has completely transformed how I manage my
@@ -384,6 +390,160 @@
               </h3>
               <p class="text-base text-gray-300 mb-2">Talia Taylor</p>
               <p class="text-gray-400">Digital Marketing Director @ Quantum</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section class="bg-primaryColor py-10 md:py-16 px-5 md:px-10">
+        <!-- content -->
+        <div class="w-full max-w-80 mx-auto">
+          <h2 class="text-3xl md:text-4xl lg:text-6xl text-center mb-3">
+            Pricing
+          </h2>
+          <p class="text-gray-500 text-center text-base">
+            Hear firsthand how our solutions have boosted online success for
+            users like you.
+          </p>
+        </div>
+
+        <!-- cards -->
+        <div
+          class="relative max-w-4xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-3 gap-5 z-50"
+        >
+          <!-- radial gradient under image -->
+          <div
+            class="absolute w-80 h-80 rounded-full radialGradient left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 blur-3xl -z-10"
+          ></div>
+
+          <!-- card one -->
+          <div
+            class="bg-black/20 backdrop-blur-sm border border-gray-800 p-5 rounded-xl h-[450px] flex flex-col w-full max-w-72 mx-auto"
+          >
+            <div class="border-b border-gray-600 pb-4 mb-5">
+              <h3 class="text-2xl text-gray-200 mb-2">Pricing</h3>
+              <p class="text-gray-400">$29/mo</p>
+            </div>
+            <div class="space-y-3 flex-1">
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Keyword optimization
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Automated meta tags
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                SEO monitoring
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Monthly reports
+              </p>
+            </div>
+            <div class="border border-gray-700 p-1 rounded-md">
+              <button class="bg-gray-700 py-1 w-full rounded-md insideShadow">
+                Join Waitlist
+              </button>
+            </div>
+          </div>
+
+          <!-- card two -->
+          <div
+            class="bg-black/30 backdrop-blur-sm border border-gray-800 p-5 rounded-xl h-[450px] w-full max-w-72 mx-auto flex flex-col overflow-hidden relative"
+          >
+            <div class="border-b border-gray-600 pb-4 mb-5">
+              <h3 class="text-2xl text-gray-200 mb-2">Pro</h3>
+              <p class="text-gray-400">$79/mo</p>
+            </div>
+            <div class="space-y-3 flex-1">
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Keyword optimization
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Automated meta tags
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                SEO monitoring
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Monthly reports
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Content suggestions
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Link optimization
+              </p>
+            </div>
+            <div class="border border-gray-700 p-1 rounded-md">
+              <button
+                class="bg-secondaryColor py-1 w-full rounded-md insideShadow"
+              >
+                Join Waitlist
+              </button>
+            </div>
+            <img
+              class="absolute bottom-0 left-0 z-50 h-56"
+              src="./images/pattern.png"
+              alt=""
+            />
+          </div>
+
+          <!-- card three -->
+          <div
+            class="bg-black/20 backdrop-blur-sm border border-gray-800 p-5 rounded-xl h-[450px] flex flex-col w-full max-w-72 mx-auto"
+          >
+            <div class="border-b border-gray-600 pb-4 mb-5">
+              <h3 class="text-2xl text-gray-200 mb-2">Business</h3>
+              <p class="text-gray-400">$149/mo</p>
+            </div>
+            <div class="space-y-3 flex-1">
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Keyword optimization
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Automated meta tags
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                SEO monitoring
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Monthly reports
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Content suggestions
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Link optimization
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                Multi-user access
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                API integration
+              </p>
+            </div>
+            <div class="border border-gray-700 p-1 rounded-md">
+              <button class="bg-gray-700 py-1 w-full rounded-md insideShadow">
+                Join Waitlist
+              </button>
             </div>
           </div>
         </div>
