@@ -347,19 +347,19 @@
           <div class="flex justify-center md:justify-end">
             <div class="relative h-[230px] w-[230px]">
               <div
-                class="absolute w-[400px] md:w-[770px] lg:w-[800px] top-0 left-1/2 -translate-x-1/2 md:translate-x-0 md:-left-2/3"
+                class="absolute w-[370px] md:w-[770px] lg:w-[800px] top-0 left-1/2 -translate-x-1/2 md:translate-x-0 md:-left-2/3"
               >
                 <img class="w-full" src="./images/line-1.png" alt="" />
               </div>
               <div
-                class="absolute w-[400px] md:w-[770px] lg:w-[800px] bottom-0 left-1/2 -translate-x-1/2 md:translate-x-0 md:-left-2/3"
+                class="absolute w-[370px] md:w-[770px] lg:w-[800px] bottom-0 left-1/2 -translate-x-1/2 md:translate-x-0 md:-left-2/3"
               >
                 <img class="w-full" src="./images/line-1.png" alt="" />
               </div>
-              <div class="absolute h-[400px] left-0 top-1/2 -translate-y-1/2">
+              <div class="absolute h-[370px] left-0 top-1/2 -translate-y-1/2">
                 <img class="w-full" src="./images/line-2.png" alt="" />
               </div>
-              <div class="absolute h-[400px] right-0 top-1/2 -translate-y-1/2">
+              <div class="absolute h-[370px] right-0 top-1/2 -translate-y-1/2">
                 <img class="w-full" src="./images/line-2.png" alt="" />
               </div>
               <img
@@ -560,14 +560,16 @@
           <div
             class="absolute w-1/2 h-96 rounded-full radialGradient left-1/2 -translate-x-1/2 -top-1/2 blur-3xl -z-10"
           ></div>
-          <div>
+          <div class="p-2">
             <h2 class="text-center text-2xl md:text-4xl font-bold mb-4">
               AI-driven SEO <br />
               for everyone
             </h2>
-            <div class="border border-gray-700 p-2 rounded-lg mb-5">
+            <div
+              class="border border-gray-700 p-2 rounded-lg mb-5 flex flex-col gap-3 md:block"
+            >
               <input
-                class="p-2 bg-transparent rounded-md outline-none"
+                class="p-2 md:bg-transparent rounded-md outline-none"
                 type="email"
                 name="email"
                 id="email"
@@ -580,13 +582,12 @@
               />
             </div>
             <p class="text-gray-400 text-center">
-              No credit card required - 7-days free trial
+              No credit card required <br class="md:hidden" />
+              - 7-days free trial
             </p>
           </div>
         </div>
       </section>
-
-      
     </main>
     <footer></footer>
     <!-- JavaScript -->
