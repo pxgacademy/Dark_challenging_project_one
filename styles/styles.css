@@ -1,11 +1,12 @@
 .color {
-  color: #080514;
+  color: #06030a;
   color: #5100a1;
   color: #0f011b;
   color: #7f00ffb3;
   color: #8000ff4d;
   color: #ffffff;
   color: #ffffff80;
+  background-image: url(../images/pattern.png);
 }
 
 .insideShadow {

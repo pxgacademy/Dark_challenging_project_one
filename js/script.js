@@ -4,7 +4,7 @@ tailwind.config = {
     extend: {
       colors: {
         clifford: "#da373d",
-        primaryColor: "#080514",
+        primaryColor: "#06030a",
         secondaryColor: "#7f00ff",
         secondaryColorD: "#5100a1",
         secondaryColorT: "#8000ff80",
